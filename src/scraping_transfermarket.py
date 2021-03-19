@@ -112,4 +112,4 @@ for row in serie_a_table:
 print(df)
 
 # Save as csv
-df.to_csv('out_transfermarket.csv', index=False)
+df.to_csv('../data/out_transfermarket.csv', index=False)
