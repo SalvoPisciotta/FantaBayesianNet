@@ -1,0 +1,29 @@
+matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,unavailable,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,play_home,points,grade,penalty_scored,penalty_kick,starter,postponed,difficulty
+2,26/set/2020,12,Torino,2,Atalanta,2:4,Available,1,1,0,False,False,False,,64,64,False,11.5,7.5,0,0,True,False,2
+1,30/set/2020,7,Lazio,3,Atalanta,1:4,Available,0,0,0,False,False,False,82,,8,False,6.0,,0,0,False,True,3
+3,04/ott/2020,2,Atalanta,14,Cagliari,5:2,Available,1,0,0,False,False,False,,74,74,True,10.0,7.0,0,0,True,False,1
+4,17/ott/2020,5,Napoli,1,Atalanta,4:1,Available,0,0,0,False,False,False,81,,9,False,,,0,0,False,False,3
+5,24/ott/2020,4,Atalanta,8,Sampdoria,1:3,in panchina,0,0,0,False,False,False,,,0,True,,,0,0,False,False,2
+6,31/ott/2020,20,Crotone,5,Atalanta,1:2,Available,2,0,0,False,False,False,,46,45,False,13.0,7.0,0,0,True,False,2
+7,08/nov/2020,4,Atalanta,5,Inter,1:1,Available,0,1,0,False,False,False,73,,17,True,7.0,6.0,0,0,False,False,3
+8,21/nov/2020,13,Spezia,5,Atalanta,0:0,non convocato,0,0,0,False,False,False,,,0,False,,,0,0,False,False,2
+9,28/nov/2020,6,Atalanta,9,Verona,0:2,Available,0,0,0,False,False,False,62,,28,True,5.0,5.0,0,0,False,False,2
+11,13/dic/2020,9,Atalanta,17,Fiorentina,3:0,Available,0,0,0,False,False,False,74,,16,True,6.0,6.0,0,0,False,False,2
+12,16/dic/2020,6,Juventus,8,Atalanta,1:1,Available,0,0,0,False,False,False,71,,19,False,6.0,6.0,0,0,False,False,4
+13,20/dic/2020,7,Atalanta,4,Roma,4:1,Available,1,0,0,False,False,False,71,,19,True,10.0,7.0,0,0,False,False,2
+14,23/dic/2020,14,Bologna,7,Atalanta,2:2,Available,2,0,0,False,False,False,,65,65,False,13.5,7.5,1,1,True,False,2
+15,03/gen/2021,7,Atalanta,4,Sassuolo,5:1,Available,1,0,0,False,False,False,62,,28,True,9.5,6.5,0,0,False,False,2
+16,06/gen/2021,6,Atalanta,16,Parma,3:0,Available,1,0,0,False,False,False,,46,45,True,10.0,7.0,0,0,True,False,1
+17,09/gen/2021,10,Benevento,5,Atalanta,1:4,Available,1,0,0,False,False,False,73,,17,False,10.5,7.5,0,0,False,False,2
+18,17/gen/2021,5,Atalanta,17,Genoa,0:0,Available,0,0,0,False,False,False,57,,33,True,6.0,6.0,0,0,False,False,1
+10,20/gen/2021,13,Udinese,8,Atalanta,1:1,Available,1,0,0,False,False,False,,58,58,False,6.0,,0,0,False,True,2
+19,23/gen/2021,1,Milan,5,Atalanta,0:3,Available,0,0,0,False,False,False,82,,8,False,,,0,0,False,False,4
+20,31/gen/2021,4,Atalanta,7,Lazio,1:3,Available,0,1,0,False,False,False,54,,36,True,6.5,6.5,0,0,False,False,2
+21,06/feb/2021,7,Atalanta,17,Torino,3:3,Available,1,1,0,False,False,False,,58,58,True,10.5,6.5,0,0,True,False,1
+22,14/feb/2021,18,Cagliari,7,Atalanta,0:1,Available,1,0,0,False,False,False,68,,22,False,10.5,7.5,0,0,False,False,2
+23,21/feb/2021,6,Atalanta,5,Napoli,4:2,Available,1,1,0,False,False,False,,84,84,True,12.5,8.5,0,0,True,False,2
+24,28/feb/2021,10,Sampdoria,5,Atalanta,0:2,Available,0,1,0,False,False,False,,59,59,False,6.5,6.5,0,0,True,False,2
+25,03/mar/2021,4,Atalanta,20,Crotone,5:1,Available,1,1,0,False,False,False,,69,69,True,10.5,6.5,0,0,True,False,1
+26,08/mar/2021,1,Inter,3,Atalanta,1:0,Available,0,0,0,False,False,False,70,,20,False,6.0,6.0,0,0,False,False,4
+27,12/mar/2021,5,Atalanta,15,Spezia,3:1,Available,1,0,0,False,False,False,,66,66,True,9.5,6.5,0,0,True,False,2
+28,21/mar/2021,9,Verona,4,Atalanta,0:2,Available,0,0,0,False,False,False,77,,13,False,6.5,6.5,0,0,False,False,2

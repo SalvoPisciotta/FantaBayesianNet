@@ -3,11 +3,11 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
 
-# url_tm stands for the data page address
-url_tm = "https://www.transfermarkt.com/ciro-immobile/leistungsdaten/spieler/105521/saison/2020/plus/1#IT1"
+# url_tm stands for the transfermarkt italian data page address
+url_tm = "https://www.transfermarkt.it/luis-muriel/leistungsdaten/spieler/119228/saison/2020/plus/1#CL"
 
-# url_fg stands for the data page address
-url_fg = "http://www.fantagiaveno.it/calciatori.asp?id=929"
+# url_fg stands for the fantagiaveno data page address
+url_fg = "http://www.fantagiaveno.it/calciatori.asp?id=945"
 
 
 # table header transfermarket
@@ -34,12 +34,37 @@ table_structure_tm = {
 # table header fantagiaveno
 table_structure_fg = {
     "matchday": 0,
+    "play_home": 1,
     "points": 2,
     "grade": 3,
     "penalty_scored": None,
     "penalty_kick": 9,
     "starter": 10,
     "postponed": None
+}
+
+# rank at end of first round
+rank_difficulty = {
+    "Milan" : 1,
+    "Inter" : 1,
+    "Juventus": 1,
+    "Roma": 2,
+    "Atalanta" : 2,
+    "Napoli" : 2,
+    "Lazio" : 2,
+    "Verona": 3,
+    "Sassuolo" : 3,
+    "Sampdoria" : 3,
+    "Benevento": 4,
+    "Fiorentina": 4,
+    "Bologna" : 4,
+    "Spezia": 4,
+    "Udinese" : 4,
+    "Genoa" : 5,
+    "Cagliari": 5,
+    "Torino" : 5,
+    "Parma" : 5,
+    "Crotone" : 5
 }
 
 
@@ -102,6 +127,9 @@ def readRowFg(row, table_structure):
         # Match day without final letter
         matchday = int(cells[table_structure["matchday"]][:-1])
 
+        # C/T became True is is C, otherwise False
+        play_home = True if cells[table_structure["play_home"]] == "c" else False
+
         # Points considering - as NaN points
         points = cells[table_structure["points"]].strip()
         if points == "-":
@@ -138,7 +166,7 @@ def readRowFg(row, table_structure):
         else:
             starter = False
 
-        return [matchday, points, grade, penalty_scored, penalty_kick, starter, postponed]
+        return [matchday, play_home, points, grade, penalty_scored, penalty_kick, starter, postponed]
 
 
 
@@ -166,6 +194,12 @@ a parser is a software responsible for converting an entry to a data structure.
 """
 page_bs_tm = BeautifulSoup(response_tm.content, 'html.parser')
 
+
+# find name of the player
+player_name = page_bs_tm.find("div", class_="dataName").find("b").text
+print("FOOTBALL PLAYER: "+player_name)
+
+
 serie_a_table_tm = None
 
 # The find_all () method is able to return all tags that meet restrictions within parentheses
@@ -186,7 +220,7 @@ for row in serie_a_table_tm:
 
 
 # Printing our gathered data
-print(df_tm)
+#print(df_tm)
 
 
 
@@ -224,13 +258,34 @@ for row in result_table_fg:
 
 
 # Printing our gathered data
-print(df_fg)
+# print(df_fg)
 
+
+
+
+
+
+# ------------------------------------------------------------------------#
+#------------------------- MERGE AND EDIT DATA ---------------------------#
+# ------------------------------------------------------------------------#
 
 df_result = pd.merge(df_tm, df_fg, on='matchday', how='inner')
+
+
+# compute difficulty index in a range [1,5]
+c = df_result['play_home'].apply(lambda x: 0 if x else 1)
+
+home_team_rank = df_result['home_team'].map(rank_difficulty)
+away_team_rank = df_result['away_team'].map(rank_difficulty)
+
+player_team_rank = home_team_rank[df_result["play_home"]].append(away_team_rank[~df_result["play_home"].astype(bool)]).sort_index()
+opponent_team_rank = home_team_rank[~df_result["play_home"].astype(bool)].append(away_team_rank[df_result["play_home"]]).sort_index()
+
+
+df_result["difficulty"] = round((5 + player_team_rank - opponent_team_rank + c)/2).astype(int)
 print(df_result)
 
 # Save as csv
-df_result.to_csv('../data/out.csv', index=False)
+df_result.to_csv('../data/stats_'+player_name.lower()+'.csv', index=False)
 
 
