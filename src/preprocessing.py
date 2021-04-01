@@ -48,7 +48,7 @@ for i in range(len(urlTmPlayers)):
 # --------------------------------------- PREPROCESSING -------------------------------------- #
 # -------------------------------------------------------------------------------------------- #
 
-# compute deployability setting it True for at most 3 players in each matchday
+# compute deployability setting it True for at most 3 players in each matchday, otherwise False
 
 # build a dict containing scores in each matchday that are not 'sv' and are at least 6
 gradesMatchday = dict.fromkeys(range(1, max(statsPlayers[0]['matchday'])+1), [])
@@ -73,14 +73,12 @@ for i in range(len(statsPlayers)):
             deployability.append(False)
     statsPlayers[i]['deployability'] = deployability
 
-import json
-print(json.dumps(gradesMatchday, indent=4, cls=PlayerEncoder))
 
 # preprocess columns needed
 for statPlayer in statsPlayers:
 
     # remove postponed matches
-    statPlayer.drop(statPlayer[statPlayer.postponed == True].index, inplace=True)
+    statPlayer.drop(statPlayer[statPlayer['postponed'] == True].index, inplace=True)
 
     # change available in True/False
     statPlayer['available'] = statPlayer['available'].apply(lambda x : True if x == 'Available' else False)
@@ -107,3 +105,4 @@ for namePlayer, statPlayer in zip(namePlayers, statsPlayers):
     variables = ['matchday','grade_range', 'goal', 'assist', 'yellow_card', 'red_card', 'available', 'starter', 'time_range', 'difficulty_match', 'deployability']
     statPlayer[variables].to_csv('../data/stats_'+namePlayer+'.csv', index=False)
 
+print("Preprocessing ended, see data on /data folder.")
