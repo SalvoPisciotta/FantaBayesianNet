@@ -40,6 +40,7 @@ urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=949")
 
 urlTmPlayers.append("https://www.transfermarkt.it/lorenzo-insigne/leistungsdaten/spieler/133964/saison/2020/plus/1#IT1")
 urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=740")
+
 urlTmPlayers.append("https://www.transfermarkt.it/romelu-lukaku/leistungsdaten/spieler/96341/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=938")
 
