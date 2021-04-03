@@ -13,42 +13,8 @@ urlFgPlayers = list()
 namePlayers = list()
 statsPlayers = list()
 
-
-urlTmPlayers.append("https://www.transfermarkt.it/luis-muriel/leistungsdaten/spieler/119228/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=945")
-
-urlTmPlayers.append("https://www.transfermarkt.it/ciro-immobile/leistungsdaten/spieler/105521/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=929")
-
-urlTmPlayers.append("https://www.transfermarkt.it/simy/leistungsdaten/spieler/194549/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=968")
-
-urlTmPlayers.append("https://www.transfermarkt.it/hirving-lozano/leistungsdaten/spieler/316889/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=746")
-
-urlTmPlayers.append("https://www.transfermarkt.it/alvaro-morata/leistungsdaten/spieler/128223/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=987")
-
-urlTmPlayers.append("https://www.transfermarkt.it/zlatan-ibrahimovic/leistungsdaten/spieler/3455/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=975")
-
-urlTmPlayers.append("https://www.transfermarkt.it/domenico-berardi/leistungsdaten/spieler/177843/saison/2020/plus/1#IT1")
-urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=703")
-
-urlTmPlayers.append("https://www.transfermarkt.it/victor-osimhen/leistungsdaten/spieler/401923/saison/2020/plus/1#IT1")
-urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=949")
-
-urlTmPlayers.append("https://www.transfermarkt.it/lorenzo-insigne/leistungsdaten/spieler/133964/saison/2020/plus/1#IT1")
-urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=740")
-
-urlTmPlayers.append("https://www.transfermarkt.it/romelu-lukaku/leistungsdaten/spieler/96341/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=938")
-
-urlTmPlayers.append("https://www.transfermarkt.it/junior-messias/leistungsdaten/spieler/449151/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=752")
-
-urlTmPlayers.append("https://www.transfermarkt.it/cristiano-ronaldo/leistungsdaten/spieler/8198/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=960")
+'''
+# team 1
 
 urlTmPlayers.append("https://www.transfermarkt.it/andrea-belotti/leistungsdaten/spieler/167727/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=904")
@@ -59,26 +25,82 @@ urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=919")
 urlTmPlayers.append("https://www.transfermarkt.it/borja-mayoral/leistungsdaten/spieler/298976/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=991")
 
+urlTmPlayers.append("https://www.transfermarkt.it/zlatan-ibrahimovic/leistungsdaten/spieler/3455/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=975")
 
-
-
-urlTmPlayers.append("https://www.transfermarkt.it/duvan-zapata/leistungsdaten/spieler/73794/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=973")
-
-urlTmPlayers.append("https://www.transfermarkt.it/josip-ilicic/leistungsdaten/spieler/80351/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=737")
+urlTmPlayers.append("https://www.transfermarkt.it/simy/leistungsdaten/spieler/194549/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=968")
 
 urlTmPlayers.append("https://www.transfermarkt.it/mattia-destro/leistungsdaten/spieler/88683/saison/2020/plus/1#gesamt")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=976")
 
+
+# team 2
+
+urlTmPlayers.append("https://www.transfermarkt.it/cristiano-ronaldo/leistungsdaten/spieler/8198/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=960")
+
+urlTmPlayers.append("https://www.transfermarkt.it/josip-ilicic/leistungsdaten/spieler/80351/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=737")
+
+urlTmPlayers.append("https://www.transfermarkt.it/joao-pedro/leistungsdaten/spieler/129129/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=741")
+
+urlTmPlayers.append("https://www.transfermarkt.it/junior-messias/leistungsdaten/spieler/449151/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=752")
+
+urlTmPlayers.append("https://www.transfermarkt.it/fabio-quagliarella/leistungsdaten/spieler/22328/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=957")
+
+urlTmPlayers.append("https://www.transfermarkt.it/musa-barrow/leistungsdaten/spieler/486624/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=903")
+
+# team 3
+
+urlTmPlayers.append("https://www.transfermarkt.it/ciro-immobile/leistungsdaten/spieler/105521/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=929")
+
+urlTmPlayers.append("https://www.transfermarkt.it/felipe-caicedo/leistungsdaten/spieler/37834/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=907")
+
 urlTmPlayers.append("https://www.transfermarkt.it/lautaro-martinez/leistungsdaten/spieler/406625/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=939")
+
+urlTmPlayers.append("https://www.transfermarkt.it/hirving-lozano/leistungsdaten/spieler/316889/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=746")
+
+urlTmPlayers.append("https://www.transfermarkt.it/lorenzo-insigne/leistungsdaten/spieler/133964/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=740")
 
 urlTmPlayers.append("https://www.transfermarkt.it/dusan-vlahovic/leistungsdaten/spieler/357498/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=972")
 
-urlTmPlayers.append("https://www.transfermarkt.it/joao-pedro/leistungsdaten/spieler/129129/saison/2020/plus/1#IT1")
-urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=741")
+
+# team 4
+
+urlTmPlayers.append("https://www.transfermarkt.it/luis-muriel/leistungsdaten/spieler/119228/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=945")
+
+urlTmPlayers.append("https://www.transfermarkt.it/alvaro-morata/leistungsdaten/spieler/128223/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=987")
+
+urlTmPlayers.append("https://www.transfermarkt.it/domenico-berardi/leistungsdaten/spieler/177843/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=703")
+
+urlTmPlayers.append("https://www.transfermarkt.it/romelu-lukaku/leistungsdaten/spieler/96341/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=938")
+
+urlTmPlayers.append("https://www.transfermarkt.it/francesco-caputo/leistungsdaten/spieler/84765/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=908")
+
+urlTmPlayers.append("https://www.transfermarkt.it/mbala-nzola/leistungsdaten/spieler/354814/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=994")
+
+'''
+
+
+
+# team 5
 
 urlTmPlayers.append("https://www.transfermarkt.it/joaquin-correa/leistungsdaten/spieler/227081/saison/2020/plus/1#IT1")
 urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=720")
@@ -92,13 +114,19 @@ urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=936")
 urlTmPlayers.append("https://www.transfermarkt.it/paulo-dybala/leistungsdaten/spieler/206050/saison/2020/plus/1#IT1")
 urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=728")
 
-urlTmPlayers.append("https://www.transfermarkt.it/fabio-quagliarella/leistungsdaten/spieler/22328/saison/2020/plus/1#IT1")
-urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=957")
+urlTmPlayers.append("https://www.transfermarkt.it/victor-osimhen/leistungsdaten/spieler/401923/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=949")
+
+urlTmPlayers.append("https://www.transfermarkt.it/duvan-zapata/leistungsdaten/spieler/73794/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=973")
+
+
 # get raw data for each player
 for i in range(len(urlTmPlayers)):
 
     player = ScrapingPlayer(urlTmPlayers[i], urlFgPlayers[i])
     namePlayer, statsPlayer = player.getData()
+    namePlayer = namePlayer.replace(" ", "_")
 
     namePlayers.append(namePlayer)
     statsPlayers.append(statsPlayer.sort_values(by=['matchday']))
@@ -119,10 +147,11 @@ for i in range(len(statsPlayers)):
             gradesMatchday[matchday] = gradesMatchday[matchday] + [Player(i,score)]
 
 # order each list of scores in decreasing way and take at most 3 values
+maxDeployable = int(len(urlTmPlayers)/2)
 for values in gradesMatchday.values():
     values.sort(reverse=True)
-    if len(values) > 3:
-        del values[3:]
+    if len(values) > maxDeployable:
+        del values[maxDeployable:]
 
 # compute deployability for each player
 for i in range(len(statsPlayers)):

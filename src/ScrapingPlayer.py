@@ -90,11 +90,18 @@ class ScrapingPlayer:
             matchday = int(cells[table_structure["matchday"]])
             date = cells[table_structure["date"]]
             home_team_raw = cells[table_structure["home_team"]]
-            home_team_name, home_team_pos = home_team_raw.split("\xa0\xa0")
-            home_team_pos = int(home_team_pos[1:-2])
             away_team_raw = cells[table_structure["away_team"]]
-            away_team_name, away_team_pos = away_team_raw.split("\xa0\xa0")
-            away_team_pos = int(away_team_pos[1:-2])
+            try:
+                home_team_name, home_team_pos = home_team_raw.split("\xa0\xa0")
+                home_team_pos = int(home_team_pos[1:-2])
+                away_team_name, away_team_pos = away_team_raw.split("\xa0\xa0")
+                away_team_pos = int(away_team_pos[1:-2])
+            except ValueError:
+                home_team_name = home_team_raw
+                home_team_pos = None
+                away_team_name = away_team_raw
+                away_team_pos = None
+
             result = cells[table_structure["result"]]
 
             # If a row contains less cells than the overall table structure, means that player in unavailable
@@ -206,7 +213,7 @@ class ScrapingPlayer:
 
         # find name of the player
         player_name = page_bs_tm.find("div", class_="dataName").find("b").text
-
+        #print(player_name)
 
         serie_a_table_tm = None
 
