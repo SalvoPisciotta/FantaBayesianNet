@@ -32,6 +32,24 @@ urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=987")
 urlTmPlayers.append("https://www.transfermarkt.it/zlatan-ibrahimovic/leistungsdaten/spieler/3455/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=975")
 
+urlTmPlayers.append("https://www.transfermarkt.it/romelu-lukaku/leistungsdaten/spieler/96341/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=938")
+
+urlTmPlayers.append("https://www.transfermarkt.it/junior-messias/leistungsdaten/spieler/449151/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=752")
+
+urlTmPlayers.append("https://www.transfermarkt.it/cristiano-ronaldo/leistungsdaten/spieler/8198/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=960")
+
+urlTmPlayers.append("https://www.transfermarkt.it/andrea-belotti/leistungsdaten/spieler/167727/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=904")
+
+urlTmPlayers.append("https://www.transfermarkt.it/edin-dzeko/leistungsdaten/spieler/28396/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=919")
+
+urlTmPlayers.append("https://www.transfermarkt.it/borja-mayoral/leistungsdaten/spieler/298976/saison/2020/plus/1#IT1")
+urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=991")
+
 
 # get raw data for each player
 for i in range(len(urlTmPlayers)):
