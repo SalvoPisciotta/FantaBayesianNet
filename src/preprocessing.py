@@ -50,6 +50,9 @@ urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=919")
 urlTmPlayers.append("https://www.transfermarkt.it/borja-mayoral/leistungsdaten/spieler/298976/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=991")
 
+
+
+
 urlTmPlayers.append("https://www.transfermarkt.it/duvan-zapata/leistungsdaten/spieler/73794/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=973")
 
