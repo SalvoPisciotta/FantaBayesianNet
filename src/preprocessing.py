@@ -32,6 +32,14 @@ urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=987")
 urlTmPlayers.append("https://www.transfermarkt.it/zlatan-ibrahimovic/leistungsdaten/spieler/3455/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=975")
 
+urlTmPlayers.append("https://www.transfermarkt.it/domenico-berardi/leistungsdaten/spieler/177843/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=703")
+
+urlTmPlayers.append("https://www.transfermarkt.it/victor-osimhen/leistungsdaten/spieler/401923/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=949")
+
+urlTmPlayers.append("https://www.transfermarkt.it/lorenzo-insigne/leistungsdaten/spieler/133964/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=740")
 
 # get raw data for each player
 for i in range(len(urlTmPlayers)):

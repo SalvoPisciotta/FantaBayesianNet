@@ -283,7 +283,7 @@ class ScrapingPlayer:
         opponent_team_rank = home_team_rank[~df_result["play_home"].astype(bool)].append(away_team_rank[df_result["play_home"]]).sort_index()
 
 
-        df_result["difficulty_match"] = round((5 + player_team_rank - opponent_team_rank + c)/2).astype(int)
+        df_result["difficulty_match"] = round((5 + player_team_rank - opponent_team_rank + c + 0.1)/2).astype(int)
 
         # Save as csv
         #df_result.to_csv('../data/stats_'+player_name.lower()+'.csv', index=False)
