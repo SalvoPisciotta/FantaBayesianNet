@@ -80,7 +80,20 @@ urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=972")
 urlTmPlayers.append("https://www.transfermarkt.it/joao-pedro/leistungsdaten/spieler/129129/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=741")
 
+urlTmPlayers.append("https://www.transfermarkt.it/joaquin-correa/leistungsdaten/spieler/227081/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=720")
 
+urlTmPlayers.append("https://www.transfermarkt.it/ante-rebic/leistungsdaten/spieler/187587/saison/2020/plus/1#IT1")
+urlTmPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=767")
+
+urlTmPlayers.append("https://www.transfermarkt.it/rafael-leao/leistungsdaten/spieler/357164/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=936")
+
+urlTmPlayers.append("https://www.transfermarkt.it/paulo-dybala/leistungsdaten/spieler/206050/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=728")
+
+urlTmPlayers.append("https://www.transfermarkt.it/fabio-quagliarella/leistungsdaten/spieler/22328/saison/2020/plus/1#IT1")
+urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=957")
 # get raw data for each player
 for i in range(len(urlTmPlayers)):
 
