@@ -13,7 +13,7 @@ urlFgPlayers = list()
 namePlayers = list()
 statsPlayers = list()
 
-'''
+
 # team 1
 
 urlTmPlayers.append("https://www.transfermarkt.it/andrea-belotti/leistungsdaten/spieler/167727/saison/2020/plus/1#IT1")
@@ -96,7 +96,7 @@ urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=908")
 urlTmPlayers.append("https://www.transfermarkt.it/mbala-nzola/leistungsdaten/spieler/354814/saison/2020/plus/1#IT1")
 urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=994")
 
-'''
+
 
 
 
@@ -105,14 +105,14 @@ urlFgPlayers.append("http://www.fantagiaveno.it/calciatori.asp?id=994")
 urlTmPlayers.append("https://www.transfermarkt.it/joaquin-correa/leistungsdaten/spieler/227081/saison/2020/plus/1#IT1")
 urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=720")
 
-urlTmPlayers.append("https://www.transfermarkt.it/ante-rebic/leistungsdaten/spieler/187587/saison/2020/plus/1#IT1")
-urlTmPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=767")
+#urlTmPlayers.append("https://www.transfermarkt.it/ante-rebic/leistungsdaten/spieler/187587/saison/2020/plus/1#IT1")
+#urlTmPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=767")
 
-urlTmPlayers.append("https://www.transfermarkt.it/rafael-leao/leistungsdaten/spieler/357164/saison/2020/plus/1#IT1")
-urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=936")
+#urlTmPlayers.append("https://www.transfermarkt.it/rafael-leao/leistungsdaten/spieler/357164/saison/2020/plus/1#IT1")
+#urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=936")
 
-urlTmPlayers.append("https://www.transfermarkt.it/paulo-dybala/leistungsdaten/spieler/206050/saison/2020/plus/1#IT1")
-urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=728")
+#urlTmPlayers.append("https://www.transfermarkt.it/paulo-dybala/leistungsdaten/spieler/206050/saison/2020/plus/1#IT1")
+#urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=728")
 
 urlTmPlayers.append("https://www.transfermarkt.it/victor-osimhen/leistungsdaten/spieler/401923/saison/2020/plus/1#IT1")
 urlFgPlayers.append("https://www.fantagiaveno.it/calciatori.asp?id=949")

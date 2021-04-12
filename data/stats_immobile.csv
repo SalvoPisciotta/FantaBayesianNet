@@ -12,9 +12,9 @@ matchday,grade_range,goal,assist,yellow_card,red_card,available,starter,time_ran
 12,>=9.5,True,False,False,False,True,True,46-90,2,True
 13,>=9.5,True,True,True,False,True,True,46-90,3,True
 14,6-7,True,False,False,False,True,True,46-90,4,False
-15,>=9.5,True,False,False,False,True,True,46-90,2,False
+15,>=9.5,True,False,False,False,True,True,46-90,2,True
 16,>=9.5,True,False,False,False,True,True,46-90,2,True
-17,6-7,False,False,False,False,True,True,46-90,2,False
+17,6-7,False,False,False,False,True,True,46-90,2,True
 18,>=9.5,True,False,False,False,True,True,46-90,3,True
 19,>=9.5,True,False,False,False,True,True,46-90,2,True
 20,7.5-9,False,True,False,False,True,True,46-90,3,True
@@ -25,3 +25,4 @@ matchday,grade_range,goal,assist,yellow_card,red_card,available,starter,time_ran
 26,<=5.5,False,False,False,False,True,True,46-90,4,False
 27,<=5.5,False,True,False,False,True,True,46-90,1,False
 28,6-7,False,False,False,False,True,True,46-90,2,True
+29,<=5.5,False,False,False,False,True,True,46-90,2,False

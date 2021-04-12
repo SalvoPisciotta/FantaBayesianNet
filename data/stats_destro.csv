@@ -26,3 +26,4 @@ matchday,grade_range,goal,assist,yellow_card,red_card,available,starter,time_ran
 26,<=5.5,False,False,True,False,True,True,46-90,5,False
 27,sv,False,False,False,False,False,False,0-15,3,False
 28,6-7,False,False,False,False,True,True,46-90,3,True
+29,7.5-9,True,False,False,False,True,True,46-90,3,True

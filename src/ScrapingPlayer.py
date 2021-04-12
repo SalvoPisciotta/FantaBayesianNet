@@ -213,7 +213,7 @@ class ScrapingPlayer:
 
         # find name of the player
         player_name = page_bs_tm.find("div", class_="dataName").find("b").text
-        #print(player_name)
+        print(player_name)
 
         serie_a_table_tm = None
 
@@ -289,8 +289,7 @@ class ScrapingPlayer:
         player_team_rank = home_team_rank[df_result["play_home"]].append(away_team_rank[~df_result["play_home"].astype(bool)]).sort_index()
         opponent_team_rank = home_team_rank[~df_result["play_home"].astype(bool)].append(away_team_rank[df_result["play_home"]]).sort_index()
 
-
-        df_result["difficulty_match"] = round((5 + player_team_rank - opponent_team_rank + c + 0.1)/2).astype(int)
+        df_result["difficulty_match"] =   round((5 + player_team_rank - opponent_team_rank + c + 0.1)/2).astype(int)
 
         # Save as csv
         #df_result.to_csv('../data/stats_'+player_name.lower()+'.csv', index=False)
