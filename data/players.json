@@ -1,0 +1,304 @@
+{
+  "teams": [
+    {
+      "name" : "Milan",
+      "forwards": [
+        {
+          "player_name" : "Ibrahimovic",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=975",
+          "url_tm" : "https://www.transfermarkt.it/zlatan-ibrahimovic/leistungsdaten/spieler/3455/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Leão",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=936",
+          "url_tm" : "https://www.transfermarkt.it/rafael-leao/leistungsdaten/spieler/357164/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Inter",
+      "forwards": [
+        {
+          "player_name" : "Martínez",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=939",
+          "url_tm" : "https://www.transfermarkt.it/lautaro-martinez/leistungsdaten/spieler/406625/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Lukaku",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=938",
+          "url_tm" : "https://www.transfermarkt.it/romelu-lukaku/leistungsdaten/spieler/96341/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Juventus",
+      "forwards": [
+        {
+          "player_name" : "Cristiano Ronaldo",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=960",
+          "url_tm" : "https://www.transfermarkt.it/cristiano-ronaldo/leistungsdaten/spieler/8198/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Morata",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=987",
+          "url_tm" : "https://www.transfermarkt.it/alvaro-morata/leistungsdaten/spieler/128223/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Dybala",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=728",
+          "url_tm" : "https://www.transfermarkt.it/paulo-dybala/leistungsdaten/spieler/206050/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Roma",
+      "forwards": [
+        {
+          "player_name" : "Dzeko",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=919",
+          "url_tm" : "https://www.transfermarkt.it/edin-dzeko/leistungsdaten/spieler/28396/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Mayoral",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=991",
+          "url_tm" : "https://www.transfermarkt.it/borja-mayoral/leistungsdaten/spieler/298976/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Atalanta",
+      "forwards": [
+        {
+          "player_name" : "Ilicic",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=737",
+          "url_tm" : "https://www.transfermarkt.it/josip-ilicic/leistungsdaten/spieler/80351/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Muriel",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=945",
+          "url_tm" : "https://www.transfermarkt.it/luis-muriel/leistungsdaten/spieler/119228/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Zapata",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=973",
+          "url_tm" : "https://www.transfermarkt.it/duvan-zapata/leistungsdaten/spieler/73794/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Napoli",
+      "forwards": [
+        {
+          "player_name" : "Lozano",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=746",
+          "url_tm" : "https://www.transfermarkt.it/hirving-lozano/leistungsdaten/spieler/316889/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Insigne",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=740",
+          "url_tm" : "https://www.transfermarkt.it/lorenzo-insigne/leistungsdaten/spieler/133964/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Osimhen",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=949",
+          "url_tm" : "https://www.transfermarkt.it/victor-osimhen/leistungsdaten/spieler/401923/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Lazio",
+      "forwards": [
+        {
+          "player_name" : "Immobile",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=929",
+          "url_tm" : "https://www.transfermarkt.it/ciro-immobile/leistungsdaten/spieler/105521/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Caicedo",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=907",
+          "url_tm" : "https://www.transfermarkt.it/felipe-caicedo/leistungsdaten/spieler/37834/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Correa",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=720",
+          "url_tm" : "https://www.transfermarkt.it/joaquin-correa/leistungsdaten/spieler/227081/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Verona",
+      "forwards": [
+        {
+          "player_name" : "Kalinic",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=993",
+          "url_tm" : "https://www.transfermarkt.it/nikola-kalinic/leistungsdaten/spieler/36371/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Sassuolo",
+      "forwards": [
+        {
+          "player_name" : "Berardi",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=703",
+          "url_tm" : "https://www.transfermarkt.it/domenico-berardi/leistungsdaten/spieler/177843/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Caputo",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=908",
+          "url_tm" : "https://www.transfermarkt.it/francesco-caputo/leistungsdaten/spieler/84765/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Sampdoria",
+      "forwards": [
+        {
+          "player_name" : "Quagliarella",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=957",
+          "url_tm" : "https://www.transfermarkt.it/fabio-quagliarella/leistungsdaten/spieler/22328/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Baldé",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=989",
+          "url_tm" : "https://www.transfermarkt.it/keita-balde/leistungsdaten/spieler/238752/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Benevento",
+      "forwards": [
+        {
+          "player_name" : "Caprari",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=713",
+          "url_tm" : "https://www.transfermarkt.it/gianluca-caprari/leistungsdaten/spieler/146752/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Lapadula",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=934",
+          "url_tm" : "https://www.transfermarkt.it/gianluca-lapadula/leistungsdaten/spieler/130394/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Fiorentina",
+      "forwards": [
+        {
+          "player_name" : "Vlahovic",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=972",
+          "url_tm" : "https://www.transfermarkt.it/dusan-vlahovic/leistungsdaten/spieler/357498/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Ribéry",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=768",
+          "url_tm" : "https://www.transfermarkt.it/franck-ribery/leistungsdaten/spieler/22068/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Bologna",
+      "forwards": [
+        {
+          "player_name" : "Barrow",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=903",
+          "url_tm" : "https://www.transfermarkt.it/musa-barrow/leistungsdaten/spieler/486624/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Orsolini",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=755",
+          "url_tm" : "https://www.transfermarkt.it/riccardo-orsolini/leistungsdaten/spieler/368482/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Spezia",
+      "forwards": [
+        {
+          "player_name" : "Nzola",
+          "url_fg" : "http://www.fantagiaveno.it/calciatori.asp?id=994",
+          "url_tm" : "https://www.transfermarkt.it/mbala-nzola/leistungsdaten/spieler/354814/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Udinese",
+      "forwards": [
+        {
+          "player_name" : "Okaka",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=948",
+          "url_tm" : "https://www.transfermarkt.it/stefano-okaka/leistungsdaten/spieler/35249/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Genoa",
+      "forwards": [
+        {
+          "player_name" : "Destro",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=976",
+          "url_tm" : "https://www.transfermarkt.it/mattia-destro/leistungsdaten/spieler/88683/saison/2020/plus/1#gesamt"
+        },
+        {
+          "player_name" : "Shomurodov",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=990",
+          "url_tm" : "https://www.transfermarkt.it/eldor-shomurodov/leistungsdaten/spieler/358166/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Cagliari",
+      "forwards": [
+        {
+          "player_name" : "João Pedro",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=741",
+          "url_tm" : "https://www.transfermarkt.it/joao-pedro/leistungsdaten/spieler/129129/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Simeone",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=967",
+          "url_tm" : "https://www.transfermarkt.it/giovanni-simeone/leistungsdaten/spieler/282388/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Torino",
+      "forwards": [
+        {
+          "player_name" : "Belotti",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=904",
+          "url_tm" : "https://www.transfermarkt.it/andrea-belotti/leistungsdaten/spieler/167727/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Zaza",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=974",
+          "url_tm" : "https://www.transfermarkt.it/simone-zaza/leistungsdaten/spieler/96828/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Parma",
+      "forwards": [
+        {
+          "player_name" : "Gervinho",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=731",
+          "url_tm" : "https://www.transfermarkt.it/gervinho/leistungsdaten/spieler/33481/saison/2020/plus/1#IT1"
+        }
+      ]
+    },
+    {
+      "name" : "Crotone",
+      "forwards": [
+        {
+          "player_name" : "Simy",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=968",
+          "url_tm" : "https://www.transfermarkt.it/simy/leistungsdaten/spieler/194549/saison/2020/plus/1#IT1"
+        },
+        {
+          "player_name" : "Messias",
+          "url_fg" : "https://www.fantagiaveno.it/calciatori.asp?id=752",
+          "url_tm" : "https://www.transfermarkt.it/junior-messias/leistungsdaten/spieler/449151/saison/2020/plus/1#IT1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,penalty_kicker,home_match,score,grade,penalty_scored,penalty_kick,starter,postponed,difficulty_match,deployability
+4,19/ott/2020,7,Verona,15,Genoa,0:0,Available,0,0,0,False,False,False,60,,30,True,True,6.0,6.0,0,0,False,False,2,False
+5,25/ott/2020,5,Juventus,7,Verona,1:1,Available,0,0,0,False,False,False,,55,55,True,False,6.5,6.5,0,0,True,False,4,False
+6,02/nov/2020,8,Verona,13,Benevento,3:1,Available,0,0,0,False,False,False,,87,87,True,True,7.0,7.0,0,0,True,False,2,False
+7,08/nov/2020,1,Milan,7,Verona,2:2,Available,0,0,0,False,False,False,,64,64,True,False,5.0,5.0,0,0,True,False,4,False
+8,22/nov/2020,8,Verona,3,Sassuolo,0:2,Available,0,0,0,False,False,False,,38,38,True,True,6.0,6.0,0,0,True,False,3,False
+9,28/nov/2020,7,Atalanta,9,Verona,0:2,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
+10,06/dic/2020,7,Verona,12,Cagliari,1:1,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,2,False
+11,12/dic/2020,7,Lazio,8,Verona,1:2,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
+12,16/dic/2020,7,Verona,13,Sampdoria,1:2,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,3,False
+13,19/dic/2020,17,Fiorentina,8,Verona,1:1,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,3,False
+14,23/dic/2020,9,Verona,2,Inter,1:2,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
+15,03/gen/2021,17,Spezia,9,Verona,0:1,Available,0,0,0,False,False,False,,53,53,True,False,5.5,5.5,0,0,True,False,3,False
+16,06/gen/2021,17,Torino,8,Verona,1:1,Available,0,0,0,False,False,False,,56,56,True,False,5.5,5.5,0,0,True,False,2,False
+17,10/gen/2021,9,Verona,20,Crotone,2:1,Available,1,0,0,False,False,False,,63,63,True,True,9.5,6.5,0,0,True,False,2,True
+18,16/gen/2021,14,Bologna,9,Verona,1:0,Available,0,0,0,False,False,False,,69,69,True,False,5.0,5.0,0,0,True,False,3,False
+19,24/gen/2021,9,Verona,4,Napoli,3:1,Available,0,0,0,False,False,False,,56,56,True,True,6.0,6.0,0,0,True,False,3,False
+20,31/gen/2021,4,Roma,8,Verona,3:1,Available,0,0,0,False,False,False,,46,45,True,False,4.5,4.5,0,0,True,False,4,False
+21,07/feb/2021,13,Udinese,9,Verona,2:0,Available,0,0,0,False,False,False,,,90,True,False,5.0,5.0,0,0,True,False,3,False
+22,15/feb/2021,9,Verona,19,Parma,2:1,Problema muscolare,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,2,False
+23,20/feb/2021,11,Genoa,9,Verona,2:2,Problema muscolare,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,2,False
+24,27/feb/2021,9,Verona,3,Juventus,1:1,Problema muscolare,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
+25,03/mar/2021,16,Benevento,8,Verona,0:3,Problema muscolare,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,3,False
+26,07/mar/2021,8,Verona,2,Milan,0:2,Problema muscolare,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
+27,13/mar/2021,9,Sassuolo,8,Verona,3:2,Problema muscolare,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,3,False
+28,21/mar/2021,9,Verona,4,Atalanta,0:2,Problema muscolare,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,3,False
+29,03/apr/2021,18,Cagliari,9,Verona,0:2,Problema muscolare,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,2,False
+30,11/apr/2021,8,Verona,6,Lazio,0:1,Available,0,0,0,False,False,False,85,,5,True,True,,,0,0,False,False,3,False

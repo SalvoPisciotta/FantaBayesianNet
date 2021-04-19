@@ -3,12 +3,6 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import numpy as np
 
-# url_tm stands for the transfermarkt italian data page address
-#url_tm = "https://www.transfermarkt.it/luis-muriel/leistungsdaten/spieler/119228/saison/2020/plus/1#CL"
-
-# url_fg stands for the fantagiaveno data page address
-#url_fg = "http://www.fantagiaveno.it/calciatori.asp?id=945"
-
 
 class ScrapingPlayer:
 
@@ -30,13 +24,14 @@ class ScrapingPlayer:
         "red_card" : 13,
         "substitution_on" : 14,
         "substitution_off" : 15,
-        "minutes" : 16
+        "minutes" : 16,
+        "penalty_kicker" : None
     }
 
     # table header fantagiaveno
     table_structure_fg = {
         "matchday": 0,
-        "play_home": 1,
+        "home_match": 1,
         "score": 2,
         "grade": 3,
         "penalty_scored": None,
@@ -69,6 +64,30 @@ class ScrapingPlayer:
         "Crotone" : 5
     }
 
+    # penalty kickers
+    penalty_kickers = {
+        "Milan" : "ibrahimovic",
+        "Inter" : "lukaku",
+        "Juventus": "cristiano ronaldo",
+        "Roma": "veretout",
+        "Atalanta" : "ilicic",
+        "Napoli" : "insigne",
+        "Lazio" : "immobile",
+        "Verona": "kalinic",
+        "Sassuolo" : "berardi",
+        "Sampdoria" : "quagliarella",
+        "Benevento": "viola",
+        "Fiorentina": "vlahovic",
+        "Bologna" : "orsolini",
+        "Spezia": "nzola",
+        "Udinese" : "de paul",
+        "Genoa" : "criscito",
+        "Cagliari": "joão pedro",
+        "Torino" : "belotti",
+        "Parma" : "kucka",
+        "Crotone" : "simy"
+    }
+
     def __init__(self,
                  url_tm,
                  url_fg):
@@ -76,7 +95,7 @@ class ScrapingPlayer:
         self.url_fg = url_fg
 
 
-    def readRowTm(self, row, table_structure=table_structure_tm):
+    def readRowTm(self, player_name, row, table_structure=table_structure_tm, penalty_kickers=penalty_kickers):
 
         # Fill a list with each cell contained into a row
         cells = row.find_all("td")
@@ -105,10 +124,10 @@ class ScrapingPlayer:
             result = cells[table_structure["result"]]
 
             # If a row contains less cells than the overall table structure, means that player in unavailable
-            if len(cells) < len(table_structure):
+            if len(cells) < len(table_structure)-1:
                 available = cells[table_structure["available"]]
                 return [matchday, date, home_team_pos, home_team_name, away_team_pos, away_team_name, result, available,
-                        0, 0, 0, False, False, False, '', '', 0]
+                        0, 0, 0, False, False, False, '', '', 0, False]
             else:
                 available = 'Available'
                 goal = 0 if cells[table_structure["goal"]] == '' else int(cells[table_structure["goal"]])
@@ -120,10 +139,12 @@ class ScrapingPlayer:
                 substitution_on = cells[table_structure["substitution_on"]][:-1]
                 substitution_off = cells[table_structure["substitution_off"]][:-1]
                 minutes = int(cells[table_structure["minutes"]][:-1])
+                penalty_kicker = True if (player_name.lower() in penalty_kickers.values() and minutes > 0) else False
+
 
                 return [matchday, date, home_team_pos, home_team_name, away_team_pos, away_team_name,  result, available,
                         goal, assist, autogoal, yellow_card, double_yellow_card, red_card, substitution_on,
-                        substitution_off, minutes]
+                        substitution_off, minutes, penalty_kicker]
 
 
 
@@ -143,7 +164,7 @@ class ScrapingPlayer:
             matchday = int(cells[table_structure["matchday"]][:-1])
 
             # C/T became True is is C, otherwise False
-            play_home = True if cells[table_structure["play_home"]] == "c" else False
+            home_match = True if cells[table_structure["home_match"]] == "c" else False
 
             # Scores considering - as NaN scores
             scores = cells[table_structure["score"]].strip()
@@ -181,11 +202,11 @@ class ScrapingPlayer:
             else:
                 starter = False
 
-            return [matchday, play_home, scores, grade, penalty_scored, penalty_kick, starter, postponed]
+            return [matchday, home_match, scores, grade, penalty_scored, penalty_kick, starter, postponed]
 
 
 
-    def getData(self):
+    def getData(self, up_to_matchday = 38):
 
 
         """
@@ -213,7 +234,6 @@ class ScrapingPlayer:
 
         # find name of the player
         player_name = page_bs_tm.find("div", class_="dataName").find("b").text
-        print(player_name)
 
         serie_a_table_tm = None
 
@@ -229,9 +249,11 @@ class ScrapingPlayer:
 
         for row in serie_a_table_tm:
             # Now we will receive all the cells in the table with their values
-            statistics = self.readRowTm(row)
-            df_tm.loc[i] = statistics
-            i+=1
+            statistics = self.readRowTm(player_name, row)
+
+            if statistics[0] <= up_to_matchday:
+                df_tm.loc[i] = statistics
+            i += 1
 
 
         # Printing our gathered data
@@ -266,8 +288,10 @@ class ScrapingPlayer:
         for row in result_table_fg:
             # Now we will receive all the cells in the table with their values
             statistics = self.readRowFg(row)
-            df_fg.loc[i] = statistics
-            i+=1
+
+            if statistics[0] <= up_to_matchday:
+                df_fg.loc[i] = statistics
+            i += 1
 
         # Printing our gathered data
         # print(df_fg)
@@ -281,15 +305,15 @@ class ScrapingPlayer:
 
 
         # compute difficulty index in a range [1,5]
-        c = df_result['play_home'].apply(lambda x: 0 if x else 1)
+        c = df_result['home_match'].apply(lambda x: 0 if x else 1)
 
         home_team_rank = df_result['home_team'].map(self.rank_difficulty)
         away_team_rank = df_result['away_team'].map(self.rank_difficulty)
 
-        player_team_rank = home_team_rank[df_result["play_home"]].append(away_team_rank[~df_result["play_home"].astype(bool)]).sort_index()
-        opponent_team_rank = home_team_rank[~df_result["play_home"].astype(bool)].append(away_team_rank[df_result["play_home"]]).sort_index()
+        player_team_rank = home_team_rank[df_result["home_match"]].append(away_team_rank[~df_result["home_match"].astype(bool)]).sort_index()
+        opponent_team_rank = home_team_rank[~df_result["home_match"].astype(bool)].append(away_team_rank[df_result["home_match"]]).sort_index()
 
-        df_result["difficulty_match"] =   round((5 + player_team_rank - opponent_team_rank + c + 0.1)/2).astype(int)
+        df_result["difficulty_match"] = round((5 + player_team_rank - opponent_team_rank + c + 0.1)/2).astype(int)
 
         # Save as csv
         #df_result.to_csv('../data/stats_'+player_name.lower()+'.csv', index=False)
@@ -335,8 +359,3 @@ class Player:
         return str(self)
 
 
-from json import JSONEncoder
-# subclass JSONEncoder
-class PlayerEncoder(JSONEncoder):
-        def default(self, o):
-            return o.__dict__
