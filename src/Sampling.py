@@ -436,7 +436,7 @@ class GibbsSampling(MarkovChain):
         types = [(var_name, "int") for var_name in self.variables]
         sampled = np.zeros(size, dtype=types).view(np.recarray)
         sampled[0] = tuple(st for var, st in self.state)
-        for i in tqdm(range(size - 1)):
+        for i in range(size - 1):
             for j, (var, st) in enumerate(self.state):
                 other_st = tuple(st for v, st in self.state if var != v)
                 next_st = sample_discrete(
