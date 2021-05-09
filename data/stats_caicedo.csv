@@ -1,30 +1,30 @@
 matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,penalty_kicker,home_match,score,grade,penalty_scored,penalty_kick,starter,postponed,difficulty_match,deployability
-1,30/set/2020,6,Lazio,3,Atalanta,1:4,Available,1,0,0,True,False,False,,,90,False,True,6.0,,0,0,False,True,3,False
-2,26/set/2020,10,Cagliari,18,Lazio,0:2,Available,0,0,0,False,False,False,71,,19,False,False,6.0,6.0,0,0,False,False,2,False
+1,30/set/2020,6,Lazio,3,Atalanta,1:4,Available,1,0,0,True,False,False,,,90,False,True,6.0,,0,0,False,True,3,True
+2,26/set/2020,10,Cagliari,18,Lazio,0:2,Available,0,0,0,False,False,False,71,,19,False,False,6.0,6.0,0,0,False,False,2,True
 3,04/ott/2020,10,Lazio,3,Inter,1:1,in panchina,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,3,False
 4,17/ott/2020,14,Sampdoria,9,Lazio,3:0,Available,0,0,0,True,False,False,,59,59,False,False,4.5,5.0,0,0,True,False,3,False
 5,24/ott/2020,15,Lazio,16,Bologna,2:1,in panchina,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,2,False
 6,01/nov/2020,15,Torino,12,Lazio,3:4,Available,1,0,0,True,False,False,73,,17,False,False,9.5,7.0,0,0,False,False,2,True
 7,08/nov/2020,10,Lazio,4,Juventus,1:1,Available,1,0,0,False,False,False,54,,36,False,True,10.0,7.0,0,0,False,False,3,True
-8,21/nov/2020,20,Crotone,9,Lazio,0:2,Available,0,0,0,False,False,False,62,,28,False,False,6.0,6.0,0,0,False,False,2,False
-9,29/nov/2020,8,Lazio,16,Udinese,1:3,Available,0,0,0,False,False,False,63,,27,False,True,5.5,5.5,0,0,False,False,2,False
-10,05/dic/2020,14,Spezia,9,Lazio,1:2,Available,0,0,0,False,False,False,59,,31,False,False,6.0,6.0,0,0,False,False,2,False
+8,21/nov/2020,20,Crotone,9,Lazio,0:2,Available,0,0,0,False,False,False,62,,28,False,False,6.0,6.0,0,0,False,False,2,True
+9,29/nov/2020,8,Lazio,16,Udinese,1:3,Available,0,0,0,False,False,False,63,,27,False,True,5.5,5.5,0,0,False,False,2,True
+10,05/dic/2020,14,Spezia,9,Lazio,1:2,Available,0,0,0,False,False,False,59,,31,False,False,6.0,6.0,0,0,False,False,2,True
 11,12/dic/2020,7,Lazio,8,Verona,1:2,Available,1,0,0,True,False,False,,65,65,False,True,9.0,6.5,0,0,True,False,2,True
 12,15/dic/2020,15,Benevento,9,Lazio,1:1,Available,0,0,0,False,False,False,80,,10,False,False,,,0,0,False,False,2,False
-13,20/dic/2020,9,Lazio,3,Napoli,2:0,Available,0,0,0,False,False,False,,67,67,False,True,6.0,6.0,0,0,True,False,3,False
+13,20/dic/2020,9,Lazio,3,Napoli,2:0,Available,0,0,0,False,False,False,,67,67,False,True,6.0,6.0,0,0,True,False,3,True
 14,23/dic/2020,1,Milan,8,Lazio,3:2,in panchina,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
-15,03/gen/2021,,Genoa,,Lazio,1:1,Available,0,0,0,False,False,False,,81,81,False,False,5.5,5.5,0,0,True,False,2,False
+15,03/gen/2021,18,Genoa,8,Lazio,1:1,Available,0,0,0,False,False,False,,81,81,False,False,5.5,5.5,0,0,True,False,2,True
 16,06/gen/2021,9,Lazio,14,Fiorentina,2:1,Available,1,0,0,False,False,False,,58,58,False,True,10.0,7.0,0,0,True,False,2,True
 17,10/gen/2021,18,Parma,8,Lazio,0:2,Available,1,0,0,False,False,False,,70,70,False,False,10.0,7.0,0,0,True,False,2,True
 18,15/gen/2021,8,Lazio,4,Roma,3:0,Available,0,0,0,False,False,False,,66,66,False,True,6.0,6.0,0,0,True,False,3,True
-19,24/gen/2021,7,Lazio,8,Sassuolo,2:1,Available,0,0,0,False,False,False,67,,23,False,True,6.0,6.0,0,0,False,False,2,False
+19,24/gen/2021,7,Lazio,8,Sassuolo,2:1,Available,0,0,0,False,False,False,67,,23,False,True,6.0,6.0,0,0,False,False,2,True
 20,31/gen/2021,5,Atalanta,7,Lazio,1:3,Problemi al tallone,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,3,False
 21,07/feb/2021,6,Lazio,18,Cagliari,1:0,in panchina,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,1,False
-22,14/feb/2021,2,Inter,5,Lazio,3:1,Available,0,0,0,False,False,False,70,,20,False,False,6.0,6.0,0,0,False,False,4,False
+22,14/feb/2021,2,Inter,5,Lazio,3:1,Available,0,0,0,False,False,False,70,,20,False,False,6.0,6.0,0,0,False,False,4,True
 23,20/feb/2021,7,Lazio,10,Sampdoria,1:0,Available,0,0,0,False,False,False,86,,4,False,True,,,0,0,False,False,2,False
-24,27/feb/2021,,Bologna,,Lazio,2:0,Available,0,0,0,False,False,False,76,,14,False,False,5.0,5.0,0,0,False,False,2,False
+24,27/feb/2021,12,Bologna,6,Lazio,2:0,Available,0,0,0,False,False,False,76,,14,False,False,5.0,5.0,0,0,False,False,2,False
 26,06/mar/2021,3,Juventus,7,Lazio,3:1,Available,0,0,0,False,False,False,82,,8,False,False,,,0,0,False,False,4,False
 27,12/mar/2021,7,Lazio,20,Crotone,3:2,Available,1,0,0,False,False,False,76,,14,False,True,10.5,7.5,0,0,False,False,1,True
-28,21/mar/2021,,Udinese,,Lazio,0:1,Problemi al tallone,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,2,False
-29,03/apr/2021,,Lazio,,Spezia,2:1,Available,1,0,0,False,False,False,72,,18,False,True,10.0,7.0,1,1,False,False,2,True
-30,11/apr/2021,8,Verona,6,Lazio,0:1,Available,0,0,0,True,False,False,,68,68,False,False,5.5,6.0,0,0,True,False,3,False
+28,21/mar/2021,10,Udinese,7,Lazio,0:1,Problemi al tallone,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,2,False
+29,03/apr/2021,7,Lazio,15,Spezia,2:1,Available,1,0,0,False,False,False,72,,18,False,True,10.0,7.0,1,1,False,False,2,True
+30,11/apr/2021,8,Verona,6,Lazio,0:1,Available,0,0,0,True,False,False,,68,68,False,False,5.5,6.0,0,0,True,False,3,True

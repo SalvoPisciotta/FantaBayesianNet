@@ -1,5 +1,5 @@
 matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,penalty_kicker,home_match,score,grade,penalty_scored,penalty_kick,starter,postponed,difficulty_match,deployability
-1,20/set/2020,4,Juventus,10,Sampdoria,3:0,Available,0,0,0,False,False,False,46,,45,True,False,6.5,6.5,0,0,False,False,4,True
+1,20/set/2020,4,Juventus,9,Sampdoria,3:0,Available,0,0,0,False,False,False,46,,45,True,False,6.5,6.5,0,0,False,False,4,False
 2,26/set/2020,20,Sampdoria,16,Benevento,2:3,Available,1,0,0,False,False,False,,84,84,True,True,9.0,6.0,0,0,True,False,2,True
 3,02/ott/2020,9,Fiorentina,18,Sampdoria,1:2,Available,1,0,0,False,False,False,,,90,True,False,9.5,6.5,1,1,True,False,3,True
 4,17/ott/2020,14,Sampdoria,9,Lazio,3:0,Available,1,0,0,False,False,False,,79,79,True,True,10.0,7.0,0,0,True,False,3,True
@@ -17,15 +17,15 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 16,06/gen/2021,11,Sampdoria,2,Inter,2:1,in panchina,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
 17,11/gen/2021,16,Spezia,11,Sampdoria,2:1,Available,0,0,0,False,False,False,79,,11,True,False,,,0,0,False,False,3,False
 18,16/gen/2021,11,Sampdoria,13,Udinese,2:1,Available,0,0,0,False,False,False,,62,62,True,True,5.0,5.0,0,0,True,False,2,False
-19,24/gen/2021,19,Parma,10,Sampdoria,0:2,Available,0,0,0,False,False,False,,70,70,True,False,6.0,6.0,0,0,True,False,2,False
-20,30/gen/2021,10,Sampdoria,3,Juventus,0:2,Available,0,0,0,False,False,False,,68,68,True,True,6.5,6.5,0,0,True,False,4,False
+19,24/gen/2021,19,Parma,10,Sampdoria,0:2,Available,0,0,0,False,False,False,,70,70,True,False,6.0,6.0,0,0,True,False,2,True
+20,30/gen/2021,10,Sampdoria,3,Juventus,0:2,Available,0,0,0,False,False,False,,68,68,True,True,6.5,6.5,0,0,True,False,4,True
 21,07/feb/2021,12,Benevento,10,Sampdoria,1:1,Available,0,0,0,False,False,False,77,,13,True,False,,,0,0,False,False,3,False
 22,14/feb/2021,10,Sampdoria,15,Fiorentina,2:1,Available,1,0,0,False,False,False,64,,26,True,True,9.5,6.5,0,0,False,False,2,True
-23,20/feb/2021,7,Lazio,10,Sampdoria,1:0,Available,0,0,0,False,False,False,,,90,True,False,6.0,6.0,0,0,True,False,4,False
-24,28/feb/2021,10,Sampdoria,5,Atalanta,0:2,Available,0,0,0,False,False,False,61,,29,True,True,6.0,6.0,0,0,False,False,3,False
+23,20/feb/2021,7,Lazio,10,Sampdoria,1:0,Available,0,0,0,False,False,False,,,90,True,False,6.0,6.0,0,0,True,False,4,True
+24,28/feb/2021,10,Sampdoria,5,Atalanta,0:2,Available,0,0,0,False,False,False,61,,29,True,True,6.0,6.0,0,0,False,False,3,True
 25,03/mar/2021,13,Genoa,10,Sampdoria,1:1,Available,0,0,0,False,False,False,,77,77,True,False,5.0,5.0,0,0,True,False,2,False
 26,07/mar/2021,10,Sampdoria,18,Cagliari,2:2,Available,0,1,0,False,False,False,,88,88,True,True,6.0,6.0,0,0,True,False,2,True
 27,14/mar/2021,12,Bologna,10,Sampdoria,3:1,Available,1,0,0,False,False,False,,,90,True,False,10.0,7.0,0,0,True,False,3,True
-28,21/mar/2021,11,Sampdoria,17,Torino,1:0,Available,0,0,0,False,False,False,,88,88,True,True,6.0,6.0,0,0,True,False,2,False
+28,21/mar/2021,11,Sampdoria,17,Torino,1:0,Available,0,0,0,False,False,False,,88,88,True,True,6.0,6.0,0,0,True,False,2,True
 29,03/apr/2021,2,Milan,10,Sampdoria,1:1,Available,1,0,0,False,False,False,,84,84,True,False,10.0,7.0,0,0,True,False,4,True
-30,11/apr/2021,10,Sampdoria,5,Napoli,0:2,Available,0,0,0,False,False,False,,67,67,True,True,5.5,5.5,0,0,True,False,3,False
+30,11/apr/2021,10,Sampdoria,5,Napoli,0:2,Available,0,0,0,False,False,False,,67,67,True,True,5.5,5.5,0,0,True,False,3,True

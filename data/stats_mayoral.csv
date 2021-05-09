@@ -7,7 +7,7 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 8,22/nov/2020,4,Roma,15,Parma,3:0,Available,1,1,0,False,False,False,,65,65,False,True,11.0,7.0,0,0,True,False,1,True
 9,29/nov/2020,5,Napoli,3,Roma,4:0,Available,0,0,0,False,False,False,79,,11,False,False,,,0,0,False,False,3,False
 10,06/dic/2020,6,Roma,4,Sassuolo,0:0,Available,0,0,0,False,False,False,85,,5,False,True,,,0,0,False,False,2,False
-11,13/dic/2020,10,Bologna,6,Roma,1:5,Available,0,0,0,False,False,False,81,,9,False,False,6.0,6.0,0,0,False,False,2,False
+11,13/dic/2020,10,Bologna,6,Roma,1:5,Available,0,0,0,False,False,False,81,,9,False,False,6.0,6.0,0,0,False,False,2,True
 12,17/dic/2020,6,Roma,18,Torino,3:1,Available,0,1,0,False,False,False,59,,31,False,True,6.5,5.5,0,0,False,False,1,True
 13,20/dic/2020,7,Atalanta,5,Roma,4:1,in panchina,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,3,False
 14,23/dic/2020,5,Roma,13,Cagliari,3:2,Available,0,0,0,False,False,False,78,,12,False,True,5.5,5.5,0,0,False,False,1,False
@@ -18,12 +18,12 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 19,23/gen/2021,5,Roma,13,Spezia,4:3,Available,2,0,0,True,False,False,,,90,False,True,13.0,7.5,0,0,True,False,2,True
 20,31/gen/2021,4,Roma,8,Verona,3:1,Available,1,1,0,False,False,False,,86,86,False,True,11.0,7.0,0,0,True,False,2,True
 21,06/feb/2021,3,Juventus,4,Roma,2:0,Available,0,0,0,False,False,False,,63,63,False,False,5.0,5.0,0,0,True,False,4,False
-22,14/feb/2021,4,Roma,11,Udinese,3:0,Available,0,0,0,False,False,False,,68,68,False,True,6.0,6.0,0,0,True,False,2,False
+22,14/feb/2021,4,Roma,11,Udinese,3:0,Available,0,0,0,False,False,False,,68,68,False,True,6.0,6.0,0,0,True,False,2,True
 23,21/feb/2021,15,Benevento,4,Roma,0:0,Available,0,0,0,False,False,False,,,90,False,False,5.0,5.0,0,0,True,False,2,False
 24,28/feb/2021,4,Roma,2,Milan,1:2,Available,0,0,0,False,False,False,,79,79,False,True,5.0,5.0,0,0,True,False,3,False
 25,03/mar/2021,15,Fiorentina,5,Roma,1:2,Available,0,0,0,False,False,False,,,90,False,False,5.0,5.0,0,0,True,False,2,False
 26,07/mar/2021,5,Roma,13,Genoa,1:0,Available,0,0,0,False,False,False,,86,86,False,True,5.0,5.0,0,0,True,False,1,False
 27,14/mar/2021,19,Parma,4,Roma,2:0,Available,0,0,0,False,False,False,79,,11,False,False,,,0,0,False,False,2,False
 28,21/mar/2021,6,Roma,5,Napoli,0:2,Available,0,0,0,False,False,False,67,,23,False,True,5.0,5.0,0,0,False,False,3,False
-29,03/apr/2021,8,Sassuolo,6,Roma,2:2,Available,0,0,0,False,False,False,,83,83,False,False,5.5,5.5,0,0,True,False,3,False
+29,03/apr/2021,8,Sassuolo,6,Roma,2:2,Available,0,0,0,False,False,False,,83,83,False,False,5.5,5.5,0,0,True,False,3,True
 30,11/apr/2021,7,Roma,11,Bologna,1:0,Available,1,0,0,False,False,False,,84,84,False,True,9.5,6.5,0,0,True,False,2,True

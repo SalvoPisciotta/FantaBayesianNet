@@ -1,5 +1,5 @@
 matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,penalty_kicker,home_match,score,grade,penalty_scored,penalty_kick,starter,postponed,difficulty_match,deployability
-1,20/set/2020,19,Parma,5,Napoli,0:2,Available,0,0,0,False,False,False,61,,29,False,False,7.5,7.5,0,0,False,False,2,True
+1,20/set/2020,19,Parma,2,Napoli,0:2,Available,0,0,0,False,False,False,61,,29,False,False,7.5,7.5,0,0,False,False,2,True
 2,27/set/2020,7,Napoli,3,Genoa,6:0,Available,0,1,0,True,False,False,,,90,False,True,7.5,7.0,0,0,True,False,1,True
 3,07/apr/2021,6,Juventus,1,Napoli,2:1,Available,0,1,0,False,False,False,54,,36,False,False,6.0,,0,0,False,True,4,False
 4,17/ott/2020,6,Napoli,1,Atalanta,4:1,Available,1,0,0,False,False,False,,83,83,False,True,11.0,8.0,0,0,True,False,3,True
@@ -20,7 +20,7 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 19,24/gen/2021,9,Verona,4,Napoli,3:1,Available,0,0,0,False,False,False,65,,25,False,False,5.5,5.5,0,0,False,False,3,False
 20,31/gen/2021,6,Napoli,19,Parma,2:0,in panchina,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,1,False
 21,06/feb/2021,14,Genoa,5,Napoli,2:1,Available,0,0,0,False,False,False,54,,36,False,False,5.0,5.0,0,0,False,False,2,False
-22,13/feb/2021,6,Napoli,3,Juventus,1:0,Available,0,0,0,False,False,False,,75,75,False,True,5.5,5.5,0,0,True,False,3,False
+22,13/feb/2021,6,Napoli,3,Juventus,1:0,Available,0,0,0,False,False,False,,75,75,False,True,5.5,5.5,0,0,True,False,3,True
 23,21/feb/2021,6,Atalanta,5,Napoli,4:2,Available,0,0,0,False,False,False,,,90,False,False,5.0,5.0,0,0,True,False,3,False
 24,28/feb/2021,7,Napoli,15,Benevento,2:0,Infortunio alla testa,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,2,False
 25,03/mar/2021,9,Sassuolo,6,Napoli,3:3,Infortunio alla testa,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,3,False
