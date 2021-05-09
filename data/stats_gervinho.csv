@@ -1,5 +1,5 @@
 matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,penalty_kicker,home_match,score,grade,penalty_scored,penalty_kick,starter,postponed,difficulty_match,deployability
-1,20/set/2020,19,Parma,5,Napoli,0:2,Affaticamento muscolare,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
+1,20/set/2020,19,Parma,2,Napoli,0:2,Affaticamento muscolare,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
 2,28/set/2020,13,Bologna,14,Parma,4:1,Available,0,0,0,False,False,False,,69,69,False,False,6.0,6.0,0,0,True,False,4,False
 3,04/ott/2020,20,Parma,4,Verona,1:0,Available,0,0,0,False,False,False,,,90,False,True,6.0,6.0,0,0,True,False,4,False
 4,18/ott/2020,19,Udinese,17,Parma,3:2,Available,0,0,0,False,False,False,,,90,False,False,5.5,5.5,0,0,True,False,4,False
@@ -24,7 +24,7 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 23,21/feb/2021,19,Parma,14,Udinese,2:2,non convocato,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,3,False
 24,27/feb/2021,16,Spezia,19,Parma,2:2,Problema muscolare,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
 25,04/mar/2021,19,Parma,1,Inter,1:2,Problema muscolare,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,5,False
-26,07/mar/2021,14,Fiorentina,19,Parma,3:3,Available,0,0,0,False,False,False,,62,62,False,False,6.0,6.0,0,0,True,False,4,False
+26,07/mar/2021,14,Fiorentina,19,Parma,3:3,Available,0,0,0,False,False,False,,62,62,False,False,6.0,6.0,0,0,True,False,4,True
 27,14/mar/2021,19,Parma,4,Roma,2:0,Infortunio alla coscia,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
 28,19/mar/2021,19,Parma,14,Genoa,1:2,Infortunio alla coscia,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,3,False
 29,03/apr/2021,16,Benevento,19,Parma,2:2,Available,0,0,0,False,False,False,,77,77,False,False,5.0,5.0,0,0,True,False,4,False

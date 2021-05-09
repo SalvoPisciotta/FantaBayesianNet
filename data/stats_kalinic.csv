@@ -1,9 +1,9 @@
 matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,penalty_kicker,home_match,score,grade,penalty_scored,penalty_kick,starter,postponed,difficulty_match,deployability
-4,19/ott/2020,7,Verona,15,Genoa,0:0,Available,0,0,0,False,False,False,60,,30,True,True,6.0,6.0,0,0,False,False,2,False
+4,19/ott/2020,7,Verona,15,Genoa,0:0,Available,0,0,0,False,False,False,60,,30,True,True,6.0,6.0,0,0,False,False,2,True
 5,25/ott/2020,5,Juventus,7,Verona,1:1,Available,0,0,0,False,False,False,,55,55,True,False,6.5,6.5,0,0,True,False,4,False
-6,02/nov/2020,8,Verona,13,Benevento,3:1,Available,0,0,0,False,False,False,,87,87,True,True,7.0,7.0,0,0,True,False,2,False
+6,02/nov/2020,8,Verona,13,Benevento,3:1,Available,0,0,0,False,False,False,,87,87,True,True,7.0,7.0,0,0,True,False,2,True
 7,08/nov/2020,1,Milan,7,Verona,2:2,Available,0,0,0,False,False,False,,64,64,True,False,5.0,5.0,0,0,True,False,4,False
-8,22/nov/2020,8,Verona,3,Sassuolo,0:2,Available,0,0,0,False,False,False,,38,38,True,True,6.0,6.0,0,0,True,False,3,False
+8,22/nov/2020,8,Verona,3,Sassuolo,0:2,Available,0,0,0,False,False,False,,38,38,True,True,6.0,6.0,0,0,True,False,3,True
 9,28/nov/2020,7,Atalanta,9,Verona,0:2,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
 10,06/dic/2020,7,Verona,12,Cagliari,1:1,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,2,False
 11,12/dic/2020,7,Lazio,8,Verona,1:2,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
@@ -11,7 +11,7 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 13,19/dic/2020,17,Fiorentina,8,Verona,1:1,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,3,False
 14,23/dic/2020,9,Verona,2,Inter,1:2,Infortunio al bicipite femorale,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,4,False
 15,03/gen/2021,17,Spezia,9,Verona,0:1,Available,0,0,0,False,False,False,,53,53,True,False,5.5,5.5,0,0,True,False,3,False
-16,06/gen/2021,17,Torino,8,Verona,1:1,Available,0,0,0,False,False,False,,56,56,True,False,5.5,5.5,0,0,True,False,2,False
+16,06/gen/2021,17,Torino,8,Verona,1:1,Available,0,0,0,False,False,False,,56,56,True,False,5.5,5.5,0,0,True,False,2,True
 17,10/gen/2021,9,Verona,20,Crotone,2:1,Available,1,0,0,False,False,False,,63,63,True,True,9.5,6.5,0,0,True,False,2,True
 18,16/gen/2021,14,Bologna,9,Verona,1:0,Available,0,0,0,False,False,False,,69,69,True,False,5.0,5.0,0,0,True,False,3,False
 19,24/gen/2021,9,Verona,4,Napoli,3:1,Available,0,0,0,False,False,False,,56,56,True,True,6.0,6.0,0,0,True,False,3,False

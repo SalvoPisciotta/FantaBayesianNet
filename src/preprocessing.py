@@ -47,20 +47,20 @@ for i in range(len(urlTmPlayers)):
 # --------------------------------------- PREPROCESSING -------------------------------------- #
 # -------------------------------------------------------------------------------------------- #
 
-# compute deployability setting it True for at most 33% of players in each matchday, otherwise False
+# compute deployability setting it True for at most 50% of players in each matchday, otherwise False
 
-# build a dict containing scores in each matchday that are not 'sv' and are at least 6
+# build a dict containing scores in each matchday that are not 'sv' and are at least 5.5
 gradesMatchday = dict.fromkeys(range(1, max(statsPlayers[0]['matchday'])+1), [])
 for i in range(len(statsPlayers)):
     for matchday, score, difficulty_match in zip(statsPlayers[i]['matchday'], statsPlayers[i]['score'], statsPlayers[i]['difficulty_match']):
-        if score >= 6 and np.isnan(score)==False:
+        if score >= 5.5 and np.isnan(score)==False:
             # slight variation of score to make deployability also dependent by difficulty_match
-            score = score + 0.25 if difficulty_match < 3 else score
-            score = score - 0.25 if difficulty_match > 3 else score
+            score = score + 0.6 if difficulty_match < 3 else score
+            score = score - 0.6 if difficulty_match > 3 else score
             gradesMatchday[matchday] = gradesMatchday[matchday] + [Player(i,score)]
 
 # order each list of scores in decreasing way and take at most 3 values
-maxDeployable = int(len(urlTmPlayers)/3)
+maxDeployable = int(len(urlTmPlayers)/2)
 for matchday, values in gradesMatchday.items():
     values.sort(reverse=True)
     if len(values) > maxDeployable:

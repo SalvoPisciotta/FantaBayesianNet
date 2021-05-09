@@ -1,7 +1,7 @@
 matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,goal,assist,autogoal,yellow_card,double_yellow_card,red_card,substitution_on,substitution_off,minutes,penalty_kicker,home_match,score,grade,penalty_scored,penalty_kick,starter,postponed,difficulty_match,deployability
-1,20/set/2020,13,Genoa,20,Crotone,4:1,Available,1,0,0,False,False,False,,,90,False,True,10.0,7.0,0,0,True,False,3,True
+1,20/set/2020,14,Genoa,20,Crotone,4:1,Available,1,0,0,False,False,False,,,90,False,True,10.0,7.0,0,0,True,False,3,True
 2,27/set/2020,7,Napoli,3,Genoa,6:0,Available,0,0,0,True,False,False,,,90,False,False,4.0,4.5,0,0,True,False,5,False
-3,04/nov/2020,13,Genoa,16,Torino,1:2,Available,0,0,0,False,False,False,88,,2,False,True,6.0,,0,0,False,True,3,False
+3,04/nov/2020,13,Genoa,16,Torino,1:2,Available,0,0,0,False,False,False,88,,2,False,True,6.0,,0,0,False,True,3,True
 4,19/ott/2020,7,Verona,15,Genoa,0:0,Coronavirus,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
 5,24/ott/2020,13,Genoa,6,Inter,0:2,in panchina,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,5,False
 6,01/nov/2020,7,Sampdoria,17,Genoa,1:1,in panchina,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,4,False
@@ -12,8 +12,8 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 11,13/dic/2020,19,Genoa,4,Juventus,1:3,Available,0,0,0,False,False,False,66,,24,False,True,5.0,5.0,0,0,False,False,5,False
 12,16/dic/2020,19,Genoa,1,Milan,2:2,Available,2,0,0,False,False,False,,76,76,False,True,13.5,7.5,0,0,True,False,5,True
 13,20/dic/2020,15,Benevento,18,Genoa,2:0,Available,0,0,0,False,False,False,,72,72,False,False,5.0,5.0,0,0,True,False,4,False
-14,23/dic/2020,17,Spezia,19,Genoa,1:2,Available,1,0,0,True,False,False,,84,84,False,False,9.0,6.5,0,0,True,False,4,False
-15,03/gen/2021,,Genoa,,Lazio,1:1,Available,1,0,0,True,False,False,,61,61,False,True,9.0,6.5,0,0,True,False,4,False
+14,23/dic/2020,17,Spezia,19,Genoa,1:2,Available,1,0,0,True,False,False,,84,84,False,False,9.0,6.5,0,0,True,False,4,True
+15,03/gen/2021,18,Genoa,8,Lazio,1:1,Available,1,0,0,True,False,False,,61,61,False,True,9.0,6.5,0,0,True,False,4,True
 16,06/gen/2021,7,Sassuolo,19,Genoa,2:1,Available,0,0,0,False,False,False,82,,8,False,False,,,0,0,False,False,4,False
 17,09/gen/2021,19,Genoa,12,Bologna,2:0,Available,1,0,0,False,False,False,,86,86,False,True,10.0,7.0,0,0,True,False,3,True
 18,17/gen/2021,5,Atalanta,17,Genoa,0:0,Affaticamento muscolare,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,5,False
@@ -23,7 +23,7 @@ matchday,date,home_team_pos,home_team,away_team_pos,away_team,result,available,g
 22,13/feb/2021,17,Torino,12,Genoa,0:0,Available,0,0,0,False,False,False,,76,76,False,False,5.0,5.0,0,0,True,False,3,False
 23,20/feb/2021,11,Genoa,9,Verona,2:2,Available,0,0,0,False,False,False,,67,67,False,True,5.0,5.0,0,0,True,False,4,False
 24,28/feb/2021,1,Inter,11,Genoa,3:0,in panchina,0,0,0,False,False,False,,,0,False,False,,,0,0,False,False,5,False
-25,03/mar/2021,13,Genoa,10,Sampdoria,1:1,Available,0,0,0,False,False,False,,73,73,False,True,5.5,5.5,0,0,True,False,4,False
+25,03/mar/2021,13,Genoa,10,Sampdoria,1:1,Available,0,0,0,False,False,False,,73,73,False,True,5.5,5.5,0,0,True,False,4,True
 26,07/mar/2021,5,Roma,13,Genoa,1:0,Available,0,0,0,True,False,False,,,90,False,False,5.5,6.0,0,0,True,False,5,False
 27,13/mar/2021,13,Genoa,11,Udinese,1:1,Squalifica per somma di ammonizioni,0,0,0,False,False,False,,,0,False,True,,,0,0,False,False,3,False
 28,19/mar/2021,19,Parma,14,Genoa,1:2,Available,0,0,0,False,False,False,,65,65,False,False,6.5,6.5,0,0,True,False,3,True
