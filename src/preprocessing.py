@@ -59,7 +59,7 @@ for i in range(len(statsPlayers)):
             score = score - 0.6 if difficulty_match > 3 else score
             gradesMatchday[matchday] = gradesMatchday[matchday] + [Player(i,score)]
 
-# order each list of scores in decreasing way and take at most 3 values
+# order each list of scores in decreasing way and take at most the half of values
 maxDeployable = int(len(urlTmPlayers)/2)
 for matchday, values in gradesMatchday.items():
     values.sort(reverse=True)
